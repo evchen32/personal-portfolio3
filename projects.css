@@ -1,0 +1,53 @@
+@import url(styles.css);
+
+main {
+    top: 7vh;
+}
+
+div {
+    transition-property: none;
+}
+
+div:hover {
+    transform: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+img {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-end: span 2;
+}
+
+h3 {
+    grid-column-start: 2;
+}
+
+p {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+
+a {
+    grid-row-start: 1;
+    grid-column-start: 3;
+
+    color: black;
+    transition-property: all;
+    transition-duration: 1s;
+
+    margin: 0;
+    padding: 0;
+}

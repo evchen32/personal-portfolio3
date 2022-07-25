@@ -1,0 +1,29 @@
+:root {
+    font-size: x-small;
+}
+
+h1, h2 {
+    font-size: small;
+}
+
+header {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 80%;
+    height:80%;
+}
+
+main {
+    flex-direction: column;
+    top: 5vh;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+}
